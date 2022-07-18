@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  margin: 0;
+  position: absolute;
+  color: #fff;
+  font-weight: 700;
+  left: 1.5em;
+  top: 1em;
+}
+
+.header > img {
+  display: block;
+  width: 48px;
+  height: auto;
+  margin-right: 12px;
+}
+
+#root {
+  background-color: #123693;
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+}
